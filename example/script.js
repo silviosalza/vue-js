@@ -12,5 +12,11 @@ createApp({
             username: ""
             
         }
+    },
+    methods: {
+        handleClick() {
+            console.log(this.username);
+        }
+
     }
 }).mount("#app")
